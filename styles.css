@@ -1,0 +1,66 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+main{
+    display: flex;
+    justify-content:center}
+aside{
+    display: flex;
+    margin-top: 10px;}
+.aside-left{
+    border: 2px solid black;
+    width: 60%;
+    height: 600px;}
+.img-left{
+    width: 800px;
+ object-fit: cover; }
+.aside-right{
+border:2px solid black;
+width: 45%;
+height: 600px;
+background-color: #e0ebeb;
+display: flex;
+justify-content:flex-start;
+flex-direction:column;
+align-items: center;
+}
+.container-one{
+    margin-top:30px;}
+.list{ display: flex;}
+li{list-style: none;
+    margin-right: 5px;}
+.for-articleone{
+    margin: 10px;
+    width: 303px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.container-two {
+    margin-top: 20px;
+}
+.form-field{ display: flex;
+flex-direction: column;
+}
+.subject{
+    width: 210px;
+    height: 70px;
+}
+.Message{
+    width: 210px;
+    height: 100px;
+}
+.btn{
+margin: 5px;
+width: 200px;
+display: flex;
+justify-content: flex-end;
+}
+.color{
+    background-color:#d3e7e7;
+}
+.btn-color{
+    width: 60px;
+    background-color: rgb(8, 8, 39);
+    color: white;
+}
